@@ -66,7 +66,7 @@ winget install JanDeDobbeleer.OhMyPosh -s winget
 
 My favorites - JetBrains Mono Nerd Font or Hack Nerd Font.
 
-### Select jandedobbeleer.omp.json theme for OhMyPosh
+### Select **jandedobbeleer.omp.json** theme for OhMyPosh
 
 oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\jandedobbeleer.omp.json" | Invoke-Expression
 
@@ -74,4 +74,5 @@ oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\jandedobbeleer.omp.json" | 
 
 https://learn.microsoft.com/ru-ru/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.4#install-powershell-using-winget-recommended
 
-> Take [Wallpapes](https://github.com/yojeero/wallpapers).
+> [!NOTE] 
+> Download [Wallpapes](https://github.com/yojeero/wallpapers).
