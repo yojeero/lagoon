@@ -1,5 +1,5 @@
 
-<img src="preview/lagoon.webp">
+<img src="preview/lagoon.png">
 
 ## Install Lagoon theme in Windows Terminal.
 
@@ -52,11 +52,7 @@ Enjoy !
 In setting.json you can change some parametres like transparent.
 ```
 
-### Lagoon theme Palette
-
-<img width="740px" src="preview/color.webp">
-
-> Theme based by MonoLisa Font for Coders [website](https://www.monolisa.dev/).
+#### Theme based by MonoLisa Font for Coders [website](https://www.monolisa.dev/).
 
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
@@ -77,11 +73,3 @@ oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\jandedobbeleer.omp.json" | 
 ### PowerShell install
 
 https://learn.microsoft.com/ru-ru/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.4#install-powershell-using-winget-recommended
-
- . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-
-Download [Wallpapes](https://github.com/yojeero/wallpapers).
-
-Look at VSCode theme [Motion Blue](https://marketplace.visualstudio.com/items?itemName=5ett.motion-blue).
-
