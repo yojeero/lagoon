@@ -1,0 +1,2 @@
+# lagoon
+window terminal theme
