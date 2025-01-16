@@ -58,9 +58,9 @@ In setting.json you can change some parametres like transparent.
 
 > Theme based by MonoLisa Font for Coders [website](https://www.monolisa.dev/).
 
-------------------------------------------------
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
-# OhMyPosh install in Windows Terminal
+### OhMyPosh install in Windows Terminal
 
 winget install JanDeDobbeleer.OhMyPosh -s winget
 
@@ -72,18 +72,16 @@ My favorites - JetBrains Mono Nerd Font or Hack Nerd Font.
 
 oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\jandedobbeleer.omp.json" | Invoke-Expression
 
-# PowerShell install
+ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+### PowerShell install
 
 https://learn.microsoft.com/ru-ru/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.4#install-powershell-using-winget-recommended
 
  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
-```
+
 Download [Wallpapes](https://github.com/yojeero/wallpapers).
 
-```
-
-```
 Look at VSCode theme [Motion Blue](https://marketplace.visualstudio.com/items?itemName=5ett.motion-blue).
 
-```
