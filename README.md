@@ -68,7 +68,7 @@ winget install JanDeDobbeleer.OhMyPosh -s winget
 
 My favorites - JetBrains Mono Nerd Font or Hack Nerd Font.
 
-### Select **jandedobbeleer.omp.json** theme for OhMyPosh
+Select - **jandedobbeleer.omp.json** theme for OhMyPosh
 
 oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\jandedobbeleer.omp.json" | Invoke-Expression
 
