@@ -1,0 +1,26 @@
+
+        {
+            "name": "Belafonte Night",
+            "background": "#20111B",
+            "black": "#20111B",
+            "blue": "#426A79",
+            "brightBlack": "#5E5252",
+            "brightBlue": "#426A79",
+            "brightCyan": "#989A9C",
+            "brightGreen": "#858162",
+            "brightPurple": "#97522C",
+            "brightRed": "#BE100E",
+            "brightWhite": "#D5CCBA",
+            "brightYellow": "#EAA549",
+            "cursorColor": "#968C83",
+            "cyan": "#989A9C",
+            "foreground": "#968C83",
+            "green": "#858162",
+            "name": "Belafonte Night",
+            "purple": "#97522C",
+            "red": "#BE100E",
+            "selectionBackground": "#45373C",
+            "white": "#968C83",
+            "yellow": "#EAA549"
+        }
+  

@@ -1,0 +1,24 @@
+
+{
+  "name": "Lagoon",
+  "black": "#013a63",
+  "red": "#ffbc42",
+  "green": "#34a0a4",
+  "yellow": "#fcbf49",
+  "blue": "#00509d",
+  "purple": "#8e7dbe",
+  "cyan": "#118ab2",
+  "white": "#99c1de",
+  "brightBlack": "#214462",
+  "brightRed": "#ffd23f",
+  "brightGreen": "#aecab8",
+  "brightYellow": "#ffd166",
+  "brightBlue": "#014f86",
+  "brightPurple": "#ada7c9",
+  "brightCyan": "#61a5c2",
+  "brightWhite": "#bcd4e6",
+  "background": "#183752",
+  "foreground": "#a3c6e6",
+  "selectionBackground": "#e5ce5c",
+  "cursorColor": "#79acd8"
+}
