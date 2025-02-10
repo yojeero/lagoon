@@ -1,7 +1,7 @@
 
 <img src="preview/lagoon.png">
 
-## Install Lagoon theme in Windows Terminal.
+### Install Lagoon theme in Windows Terminal ###
 
 - Run Windows Terminal
 
