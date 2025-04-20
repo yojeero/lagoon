@@ -50,7 +50,7 @@
             "colorScheme": "Lagoon",
             "font": 
             {
-                "face": "JetBrains Mono",
+                "face": "Hack Nerd Font Mono",
                 "size": 11
             },
             "opacity": 95,
@@ -81,7 +81,7 @@
                 "elevate": true,
                 "font": 
                 {
-                    "face": "JetBrains Mono"
+                    "face": "Hack Nerd Font Mono"
                 },
                 "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
                 "hidden": false,
