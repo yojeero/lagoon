@@ -2,11 +2,11 @@
 
 #### Install Lagoon theme in Windows Terminal
 
-Install Fonts from folder.
-Run Windows Terminal.
-Select Settings - open and edit the "settings.json".
-Copy all from local settings.json and insert in setting.json.
-Save the file and restart Windows Terminal.
+Install Fonts from folder.   
+Run Windows Terminal.   
+Select Settings - open and edit the "settings.json".   
+Copy all from local settings.json and insert in setting.json.   
+Save the file and restart Windows Terminal.   
 
 #### OhMyPosh install in Windows Terminal
 
