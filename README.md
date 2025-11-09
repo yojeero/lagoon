@@ -2,37 +2,27 @@
 
 #### Install Lagoon theme in Windows Terminal
 
-1. Install Fonts from folder.
-2. Run Windows Terminal.
-3. Select Settings from the Windows Terminal drop-down menu while holding the SHIFT key to open the "settings.json" file in your default text editor.
-4. Edit > settings.json.
-5. Copy all from local settings.json and insert in setting.json between the lines like this:
-6. Save the file and restart Windows Terminal.
+Install Fonts from folder.
+Run Windows Terminal.
+Select Settings - open and edit the "settings.json".
+Copy all from local settings.json and insert in setting.json.
+Save the file and restart Windows Terminal.
 
 #### OhMyPosh install in Windows Terminal
 
-winget install JanDeDobbeleer.OhMyPosh
-
-new-item -type file -path $profile -force
-
-notepad $PROFILE
-
-```
-save file and restart terminal. If the theme is not applied, run the following command in PowerShell:
-```
-
-. $PROFILE
-
-oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\jandedobbeleer.omp.json" | Invoke-Expression
+winget install --id Microsoft.PowerShell --source winget
 
 ```   
-Add OhMyPosh to the PowerShell profile
+Configure Your Terminal to Use the Nerd Font.
+Navigate to Settings > PowerShell > Appearance > Text > Font Face.
 ```
 
-oh-my-posh init pwsh | Invoke-Expression 
+winget install JanDeDobbeleer.OhMyPosh -s winget
 
-```      
-If you see an error about execution policy, run this command in PowerShell:
+New-Item -Path $profile -Type File -Force  
 
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser 
-```
+oh-my-posh --init --shell pwsh --config ~/jandedobbeleer.omp.json | Invoke-Expression 
+
+notepad.exe $PROFILE   
+
+oh-my-posh.exe init pwsh | Invoke-Expression   
