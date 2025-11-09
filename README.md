@@ -58,7 +58,7 @@ winget install JanDeDobbeleer.OhMyPosh -s winget
 
 ### Install [Nerd fonts](https://www.nerdfonts.com/font-downloads)
 
-My favorites - JetBrains Mono Nerd Font or Hack Nerd Font.
+My favorites - JetBrains Mono Font.
 
 Select - **jandedobbeleer.omp.json** theme for OhMyPosh
 
@@ -75,3 +75,42 @@ https://learn.microsoft.com/ru-ru/powershell/scripting/install/installing-powers
 ```
 Inside themes folder you find some of my favorite themes.
 ```
+
+
+
+#### OhMyPosh in Windows 11
+
+```   
+If you see an error about execution policy, run this command in PowerShell as Administrator:
+```
+
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser 
+
+##### check the current execution policy with:
+Get-ExecutionPolicy -List
+
+
+Step 1: Create the $PROFILE file if it does not exist
+
+$PROFILE 
+
+Step 2: Install OhMyPosh using Winget, Scoop, or PowerShell
+
+#### If you use Winget, just run:
+
+winget install JanDeDobbeleer.OhMyPosh -s winget
+
+#### If you prefer Scoop, the command is:
+
+scoop install https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/oh-my-posh.json
+
+#### if you like working with PowerShell, execute:
+
+Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://ohmyposh.dev/install.ps1'))
+Step 3: Add OhMyPosh to the PowerShell profile
+
+#### Open the Microsoft.PowerShell_profile.ps1 file and add the following line:
+
+oh-my-posh init pwsh | Invoke-Expression
+
+Now, you can save and close the file.
