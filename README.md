@@ -2,7 +2,7 @@
 
 ### Install Lagoon theme in Windows Terminal
 
-- Install JetBrains Mono Fonts.
+- Install Fonts from folder.
 - Run Windows Terminal.
 - Select Settings from the Windows Terminal drop-down menu while holding the SHIFT key to open the "settings.json" file in your default text editor.
 - Edit > settings.json.
@@ -58,7 +58,7 @@ winget install JanDeDobbeleer.OhMyPosh -s winget
 
 ### Install [Nerd fonts](https://www.nerdfonts.com/font-downloads)
 
-My favorites - JetBrains Mono Font.
+My favorites - Hack Nerd Font Mono or JetBrains Mono.
 
 Select - **jandedobbeleer.omp.json** theme for OhMyPosh
 
