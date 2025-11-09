@@ -50,7 +50,7 @@
             "colorScheme": "Lagoon",
             "font": 
             {
-                "face": "Hack Nerd Font Mono",
+                "face": "JetBrains Mono",
                 "size": 11
             },
             "opacity": 95,
@@ -81,7 +81,7 @@
                 "elevate": true,
                 "font": 
                 {
-                    "face": "Hack Nerd Font Mono"
+                    "face": "JetBrains Mono"
                 },
                 "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
                 "hidden": false,
@@ -99,29 +99,30 @@
     },
     "schemes": 
     [
-        {
-            "background": "#183752",
-            "black": "#013A63",
-            "blue": "#00509D",
-            "brightBlack": "#214462",
-            "brightBlue": "#014F86",
-            "brightCyan": "#61A5C2",
-            "brightGreen": "#AECAB8",
-            "brightPurple": "#ADA7C9",
-            "brightRed": "#FFD23F",
-            "brightWhite": "#BCD4E6",
-            "brightYellow": "#FFD166",
-            "cursorColor": "#79ACD8",
-            "cyan": "#118AB2",
-            "foreground": "#A3C6E6",
-            "green": "#34A0A4",
-            "name": "Lagoon",
-            "purple": "#8E7DBE",
-            "red": "#FFBC42",
-            "selectionBackground": "#E5CE5C",
-            "white": "#99C1DE",
-            "yellow": "#FCBF49"
-        }
+        
+{
+    "name": "Lagoon",
+    "black": "#013a63",
+    "red": "#ffbc42",
+    "green": "#34a0a4",
+    "yellow": "#fcbf49",
+    "blue": "#00509d",
+    "purple": "#8e7dbe",
+    "cyan": "#118ab2",
+    "white": "#99c1de",
+    "brightBlack": "#214462",
+    "brightRed": "#ffd23f",
+    "brightGreen": "#aecab8",
+    "brightYellow": "#ffd166",
+    "brightBlue": "#014f86",
+    "brightPurple": "#ada7c9",
+    "brightCyan": "#61a5c2",
+    "brightWhite": "#bcd4e6",
+    "background": "#183752",
+    "foreground": "#a3c6e6",
+    "selectionBackground": "#e5ce5c",
+    "cursorColor": "#79acd8"
+  }
     ],
     "theme": "dark",
     "themes": []

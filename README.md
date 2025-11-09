@@ -2,10 +2,11 @@
 
 ### Install Lagoon theme in Windows Terminal
 
-- Run Windows Terminal
+- Install JetBrains Mono Fonts.
+- Run Windows Terminal.
 - Select Settings from the Windows Terminal drop-down menu while holding the SHIFT key to open the "settings.json" file in your default text editor.
 - Edit > settings.json.
-- Copy all and insert in setting.json between the lines like this:
+- Copy all from local settings.json and insert in setting.json between the lines like this:
 
 ```json
 
