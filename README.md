@@ -74,11 +74,9 @@ https://learn.microsoft.com/ru-ru/powershell/scripting/install/installing-powers
 
 ```
 Inside themes folder you find some of my favorite themes.
-```
+```   
 
-
-
-#### OhMyPosh in Windows 11
+### OhMyPosh Installation Guide for Windows 11 PowerShell
 
 ```   
 If you see an error about execution policy, run this command in PowerShell as Administrator:
@@ -90,11 +88,11 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 Get-ExecutionPolicy -List
 
 
-Step 1: Create the $PROFILE file if it does not exist
+##### Step 1: Create the $PROFILE file if it does not exist
 
 $PROFILE 
 
-Step 2: Install OhMyPosh using Winget, Scoop, or PowerShell
+##### Step 2: Install OhMyPosh using Winget, Scoop, or PowerShell
 
 #### If you use Winget, just run:
 
@@ -107,7 +105,8 @@ scoop install https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/downl
 #### if you like working with PowerShell, execute:
 
 Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://ohmyposh.dev/install.ps1'))
-Step 3: Add OhMyPosh to the PowerShell profile
+
+##### Step 3: Add OhMyPosh to the PowerShell profile
 
 #### Open the Microsoft.PowerShell_profile.ps1 file and add the following line:
 
