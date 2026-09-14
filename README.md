@@ -29,23 +29,23 @@ oh-my-posh.exe init pwsh | Invoke-Expression
 
 --------------------
 
-# Steps to change execution policy:
+#### Steps to change execution policy:
 
-# Open PowerShell with administrator rights:
+#### Open PowerShell with administrator rights:
 
 Press Win + X and select Windows PowerShell (Admin).
 
-# Check your current execution policy:
+#### Check your current execution policy:
 
-# Type the following command and press Enter:
+#### Type the following command and press Enter:
 
 Get-ExecutionPolicy
 
-# If the result is Restricted, this means that script execution is blocked.
+#### If the result is Restricted, this means that script execution is blocked.
 
-# Change the execution policy:
+#### Change the execution policy:
 
-# To enable scripting, run the following command:
+#### To enable scripting, run the following command:
 
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
